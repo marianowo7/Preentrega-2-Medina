@@ -1,0 +1,47 @@
+/* NavBar styles */
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.NavBar h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Categories styles */
+.Categories {
+  display: flex;
+}
+
+.Categories a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.Categories a:hover {
+  color: #555;
+}
+
+.ActiveOption {
+  font-weight: bold;
+  color: #555;
+}
+
+/* CartWidget styles */
+.CartWidget {
+  cursor: pointer;
+}
+
+.CartWidget img {
+  width: 30px;
+  height: auto;
+}

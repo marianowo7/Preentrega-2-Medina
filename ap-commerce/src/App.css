@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  background-color: #eee;
+}
+.ItemListContainer, .ItemDetailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  background-color: #fff;
+  margin: 20px;
+  border: 1px solid #ddd;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+}
